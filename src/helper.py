@@ -1,7 +1,9 @@
+"""A collection of helper functions"""
+
 import os
 import shutil
 
-from log import log, BOLD, END, GREEN
+from log import info, BOLD, END, GREEN
 
 DIST_DIR = "./dist"
 
@@ -9,7 +11,7 @@ DIST_DIR = "./dist"
 def smart_make_dist_dir():
     """Create `dist` directory if it doesn't exist already"""
 
-    log(f"Creating empty {BOLD}dist{END}{GREEN} directory")
+    info(f"Creating empty {BOLD}dist{END}{GREEN} directory")
 
     if os.path.isdir(DIST_DIR):
         try:
@@ -22,7 +24,7 @@ def smart_make_dist_dir():
 def make_osk():
     """zip the `dist` directory and save it to `POMP.osk`"""
 
-    log(f"Creating {BOLD}POMP.osk")
+    info(f"Creating {BOLD}POMP.osk")
 
     shutil.make_archive("POMP", "zip", DIST_DIR)
 

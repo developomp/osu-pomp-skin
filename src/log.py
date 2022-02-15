@@ -5,8 +5,8 @@ BOLD = "\033[1m"
 END = "\033[0m"
 
 
-def log(message):
-    print(f"{GREEN}{BOLD}    LOG{END}{GREEN}: {message}{END}")
+def info(message):
+    print(f"{GREEN}{BOLD}   INFO{END}{GREEN}: {message}{END}")
 
 
 def err(message):

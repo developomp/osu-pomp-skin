@@ -51,7 +51,7 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
 
 The source code of this project\* is available under the MIT License.
 
-\*: excluding files in the [`fonts`](./fonts) and the [`resource`](./resource) directory.
+\*excluding files in the [`fonts`](./fonts) and the [`resource`](./resource) directory.
 
 Fonts:
 
