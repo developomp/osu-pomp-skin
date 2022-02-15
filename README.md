@@ -1,5 +1,7 @@
 # osu-pomp-skin
 
+**WIP**
+
 My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is part of the name).
 
 ## Characteristics
@@ -10,7 +12,7 @@ My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is par
 - osu!standard only
 - centered acc meter
 - made specifically for osu!lazer
-- `@2x` images only
+- [HD images](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/FAQ/en.md#hd-images) only
 
 ## Commands
 
@@ -24,27 +26,19 @@ python src
 
 ## What's in it?
 
-Since all images are [HD images](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/FAQ/en.md#hd-images), `@2x` postfix is omitted and will be added automatically during the build process.
+Though no images have a `@2x` postfix, they are all HD images, and the postfix will be added automatically during the build process.
 
-### approachcircle
+### [hitcircles](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#hit-circles)
 
-### combo
+### [cursor](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#cursor)
 
-### cursor
+### [hit bursts](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#hit-bursts)
 
-### followpoint
+### [score numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#score-numbers)
 
-### hit
+### [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
 
-### hitcircle
-
-### score
-
-### scoreentry
-
-### slider
-
-### spinner
+### [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
 
 ## Resources
 
