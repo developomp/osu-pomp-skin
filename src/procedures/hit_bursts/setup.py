@@ -1,8 +1,6 @@
 from PIL import Image
 from glob import glob
 
-from log import info
-
 
 def create_frames(image_path: str, create_k=False):
     """Create frames for each hit burst"""
