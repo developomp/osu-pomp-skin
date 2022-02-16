@@ -18,6 +18,12 @@ My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is par
 
 > Assumes that these commands are called from the project root
 
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 Build skin:
 
 ```bash
