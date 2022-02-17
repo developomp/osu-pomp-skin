@@ -30,7 +30,7 @@ def initialize():
 def run_procedures():
     """Import and execute all `setup.py` files in the `procedures` directory."""
 
-    for setup_script_path in glob("src/procedures/*/setup.py"):
+    for setup_script_path in glob("src/procedures/*/__init__.py"):
         module_name = setup_script_path.split("/")[-2]
 
         info(f"Parsing {BOLD}{module_name}{END}{GREEN}")

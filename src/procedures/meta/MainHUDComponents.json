@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "osu.Game.Screens.Play.HUD.LegacyComboCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 0.0,
+      "y": -79.0
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 1.2,
+      "y": 1.2
+    },
+    "Anchor": 12,
+    "Origin": 12,
+    "UsesFixedAnchor": false,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 0.0,
+      "y": 17.223656
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 0.8509783,
+      "y": 0.85097843
+    },
+    "Anchor": 17,
+    "Origin": 17,
+    "UsesFixedAnchor": false,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Screens.Play.SongProgress, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "Anchor": 36,
+    "Origin": 36,
+    "UsesFixedAnchor": false,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 0.58358765,
+      "y": -5.6611176
+    },
+    "Rotation": 90.0,
+    "Scale": {
+      "x": 1.9614495,
+      "y": -1.9614521
+    },
+    "Anchor": 17,
+    "Origin": 10,
+    "UsesFixedAnchor": true,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Screens.Play.HUD.PerformancePointsCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 242.15866,
+      "y": 1.6
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 2.455616,
+      "y": 2.455618
+    },
+    "Anchor": 17,
+    "Origin": 9,
+    "UsesFixedAnchor": true,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Screens.Play.HUD.UnstableRateCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": -234.8223,
+      "y": 5.3333435
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 2.3953424,
+      "y": 2.3953433
+    },
+    "Anchor": 17,
+    "Origin": 33,
+    "UsesFixedAnchor": true,
+    "Children": []
+  }
+]
