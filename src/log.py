@@ -6,8 +6,8 @@ END = "\033[0m"
 
 
 def info(message):
-    print(f"{GREEN}{BOLD}   INFO{END}{GREEN}: {message}{END}")
+    print(f"{message}{END}")
 
 
 def err(message):
-    print(f"{RED}{BOLD}  ERROR{END}{RED}: {message}{END}")
+    print(f"{RED}{message}{END}")
