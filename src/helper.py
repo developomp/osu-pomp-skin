@@ -2,6 +2,7 @@
 
 import os
 import shutil
+from glob import glob
 
 from log import info, BOLD, END, GREEN
 
@@ -32,3 +33,17 @@ def make_osk():
         os.rename("POMP.zip", "POMP.osk")
     else:
         print_error("cannot find zip file to convert to osk file :(")
+
+
+def copy_all(glob_pattern: str):
+    """Copy all files in a path"""
+
+    # find all files
+    for file_path in glob(glob_pattern):
+        # ignore files
+        if "/__init__.py" in file_path or "/__pycache__" in file_path:
+            continue
+
+        # copy file
+        file_name = file_path.split("/")[-1]
+        shutil.copyfile(file_path, f"dist/{file_name}")
