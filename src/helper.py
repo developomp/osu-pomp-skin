@@ -31,13 +31,15 @@ def make_osk():
         print_error("cannot find zip file to convert to osk file :(")
 
 
-def copy_all(glob_pattern: str, add_postfix=False):
+def copy_all(
+    glob_pattern: str, add_postfix=False, exclude=["/__init__.py", "/__pycache__"]
+):
     """Copy all files in a path"""
 
     # find all files
     for file_path in glob(glob_pattern):
         # ignore files
-        if "/__init__.py" in file_path or "/__pycache__" in file_path:
+        if any(exclude_condition in file_path for exclude_condition in exclude):
             continue
 
         # copy file
