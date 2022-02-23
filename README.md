@@ -1,7 +1,5 @@
 # osu-pomp-skin
 
-**WIP**
-
 My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is part of the name).
 
 ## Characteristics
@@ -47,6 +45,10 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
 ### [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
 
 ### [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
+
+## TODOs
+
+- audio
 
 ## Resources
 
