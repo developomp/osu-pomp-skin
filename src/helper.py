@@ -31,7 +31,7 @@ def make_osk():
         print_error("cannot find zip file to convert to osk file :(")
 
 
-def copy_all(glob_pattern: str):
+def copy_all(glob_pattern: str, add_postfix=False):
     """Copy all files in a path"""
 
     # find all files
@@ -42,4 +42,10 @@ def copy_all(glob_pattern: str):
 
         # copy file
         file_name = file_path.split("/")[-1]
+
+        if add_postfix:
+            file_name = file_name.removesuffix(".png")
+            shutil.copyfile(file_path, f"dist/{file_name}@2x.png")
+            continue
+
         shutil.copyfile(file_path, f"dist/{file_name}")
