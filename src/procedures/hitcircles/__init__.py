@@ -19,10 +19,7 @@ def parse_approachcircle():
 
 
 def parse_followpoint():
-    copyfile("src/procedures/etc/1x1.png", "dist/followpoint-0@2x.png")
-    copyfile("src/procedures/hitcircles/followpoint.png", "dist/followpoint-1@2x.png")
-    copyfile("src/procedures/hitcircles/followpoint.png", "dist/followpoint-2@2x.png")
-    copyfile("src/procedures/etc/1x1.png", "dist/followpoint-3@2x.png")
+    copyfile("src/procedures/etc/1x1.png", "dist/followpoint.png")
 
 
 def parse_hitcircles():
