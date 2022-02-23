@@ -19,7 +19,7 @@
     "Type": "osu.Game.Screens.Play.HUD.DefaultAccuracyCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
       "x": 0.0,
-      "y": 20
+      "y": 35
     },
     "Rotation": 0.0,
     "Scale": {
