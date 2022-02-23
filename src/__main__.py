@@ -33,7 +33,7 @@ def run_procedures():
     for setup_script_path in glob("src/procedures/*/__init__.py"):
         module_name = setup_script_path.split("/")[-2]
 
-        info(f"Parsing {BOLD}{module_name}{END}{GREEN}")
+        info(f"Current step: {BOLD}{module_name}{END}{GREEN}")
 
         spec = spec_from_file_location(module_name, setup_script_path)
         module = module_from_spec(spec)
@@ -47,8 +47,10 @@ def main():
 
     run_procedures()
 
-    # create POMP.osk
     make_osk()
+
+    print()
+    print("Done!")
 
 
 main()
