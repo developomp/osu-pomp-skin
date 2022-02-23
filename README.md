@@ -40,7 +40,7 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
 
 ### [hit bursts](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#hit-bursts)
 
-### [score numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#score-numbers)
+### [default numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#default-numbers)
 
 ### [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
 
