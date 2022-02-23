@@ -7,10 +7,12 @@ My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is par
 ## Characteristics
 
 - semi-transparent approach circles to make reading high [AR](https://osu.ppy.sh/wiki/en/Beatmapping/Approach_rate) easier
-- minimalism
-  - not even a health bar
-- osu!standard only
+- minimalistic
+  - does not even have a health bar
+  - uses the default element in most cases
+- skins osu!standard only
 - centered acc meter
+- acc meter positioned on top of the screen
 - made specifically for osu!lazer
 - [HD images](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/FAQ/en.md#hd-images) only
 
@@ -49,15 +51,17 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
 ## Resources
 
 - [osu! wiki page about skinning](https://osu.ppy.sh/wiki/en/Skinning)
-- some assets are from [vaxei's skin](https://drive.google.com/file/d/1JRDbxtEVFYMgt9ls4rvIRs2v0IfBddFO/view)
-- some assets are from [flyingtuna's skin](https://drive.google.com/file/d/1SVtUUvo4o2DUwQ1Pf2Xb0v4eDblvvovq/view)
-- some assets are from [whitecat's skin](https://drive.google.com/file/d/1A9Ktx7MY-UP5iOGTTHsyQP622zDOKqfe/view)
+- some assets are from:
+  - [vaxei's skin](https://drive.google.com/file/d/1JRDbxtEVFYMgt9ls4rvIRs2v0IfBddFO/view)
+  - [flyingtuna's skin](https://drive.google.com/file/d/1SVtUUvo4o2DUwQ1Pf2Xb0v4eDblvvovq/view)
+  - [whitecat's skin](https://drive.google.com/file/d/1A9Ktx7MY-UP5iOGTTHsyQP622zDOKqfe/view)
+  - [osu!pure skin](https://www.reddit.com/r/OsuSkins/comments/kzv7s4/osupure_169_hdsd_osustandard)
 
 ## License
 
-The source code of this project\* is available under the MIT License.
+<ins>The source code of this project</ins>\* is available under the MIT License.
 
-\*excluding files in the [`fonts`](./fonts) and the [`resource`](./resource) directory.
+\*Excluding images and fonts.
 
 Fonts:
 
