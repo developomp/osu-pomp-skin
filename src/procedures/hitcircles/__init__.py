@@ -5,7 +5,7 @@ from shutil import copyfile
 
 
 def parse_approachcircle():
-    opacity = 0.5
+    opacity = 0.8
 
     img = Image.open("src/procedures/hitcircles/approachcircle.png")
     img = img.convert("RGBA")
