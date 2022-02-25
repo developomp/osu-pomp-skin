@@ -34,6 +34,8 @@ python src
 
 Though no images have a `@2x` postfix, they are all HD images, and the postfix will be added automatically during the build process.
 
+### [sounds](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Sounds/en.md)
+
 ### [hitcircles](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#hit-circles)
 
 ### [cursor](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#cursor)
