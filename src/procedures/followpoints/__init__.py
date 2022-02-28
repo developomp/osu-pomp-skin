@@ -6,7 +6,7 @@ from glob import glob
 # main
 #
 
-opacity = 0.8
+opacity = 0.25
 
 # find all files
 for file_path in glob("src/procedures/followpoints/*.png"):
