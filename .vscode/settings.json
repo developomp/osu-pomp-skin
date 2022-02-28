@@ -13,7 +13,5 @@
     "scoreentry",
     "svgs",
     "vaxei"
-  ],
-  "mypy.runUsingActiveInterpreter": true,
-  "python.linting.mypyEnabled": true
+  ]
 }
