@@ -1,6 +1,6 @@
 [
   {
-    "Type": "osu.Game.Screens.Play.HUD.DefaultComboCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Type": "osu.Game.Screens.Play.HUD.DefaultComboCounter, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
       "x": 5.0,
       "y": -80.0
@@ -16,10 +16,10 @@
     "Children": []
   },
   {
-    "Type": "osu.Game.Screens.Play.HUD.DefaultAccuracyCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Type": "osu.Game.Screens.Play.HUD.DefaultAccuracyCounter, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
       "x": 0.0,
-      "y": 35
+      "y": 25
     },
     "Rotation": 0.0,
     "Scale": {
@@ -32,7 +32,7 @@
     "Children": []
   },
   {
-    "Type": "osu.Game.Screens.Play.SongProgress, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Type": "osu.Game.Screens.Play.SongProgress, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
       "x": 0.0,
       "y": 0.0
@@ -48,15 +48,15 @@
     "Children": []
   },
   {
-    "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
       "x": 0.0,
       "y": -5.0
     },
     "Rotation": 90.0,
     "Scale": {
-      "x": 2.0,
-      "y": -2.0
+      "x": 1.2,
+      "y": -1.2
     },
     "Anchor": 17,
     "Origin": 10,
@@ -64,9 +64,9 @@
     "Children": []
   },
   {
-    "Type": "osu.Game.Screens.Play.HUD.UnstableRateCounter, osu.Game, Version=2021.1211.0.0, Culture=neutral, PublicKeyToken=null",
+    "Type": "osu.Game.Screens.Play.HUD.UnstableRateCounter, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
     "Position": {
-      "x": -240.0,
+      "x": -150.0,
       "y": 0.0
     },
     "Rotation": 0.0,
@@ -76,6 +76,22 @@
     },
     "Anchor": 17,
     "Origin": 33,
+    "UsesFixedAnchor": true,
+    "Children": []
+  },
+  {
+    "Type": "osu.Game.Screens.Play.HUD.PerformancePointsCounter, osu.Game, Version=2022.314.0.0, Culture=neutral, PublicKeyToken=null",
+    "Position": {
+      "x": 150.0,
+      "y": 0.0
+    },
+    "Rotation": 0.0,
+    "Scale": {
+      "x": 2.0,
+      "y": 2.0
+    },
+    "Anchor": 17,
+    "Origin": 9,
     "UsesFixedAnchor": true,
     "Children": []
   }
