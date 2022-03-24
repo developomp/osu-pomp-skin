@@ -2,6 +2,8 @@
 
 My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is part of the name).
 
+![screenshot](./.repo/screenshot.png)
+
 ## Characteristics
 
 - semi-transparent approach circles to make reading high [AR](https://osu.ppy.sh/wiki/en/Beatmapping/Approach_rate) easier
