@@ -3,18 +3,21 @@ from glob import glob
 
 from shutil import copyfile
 
+opacity = 1.0
+
 
 def parse_approachcircle():
-    opacity = 0.8
-
     img = Image.open("src/procedures/hitcircles/approachcircle.png")
-    img = img.convert("RGBA")
 
-    data = []
-    for (r, g, b, a) in img.getdata():
-        data.append((r, g, b, int(a * opacity)))
+    if opacity >= 1.0:
+        img = img.convert("RGBA")
 
-    img.putdata(data)
+        data = []
+        for (r, g, b, a) in img.getdata():
+            data.append((r, g, b, int(a * opacity)))
+
+        img.putdata(data)
+
     img.save("dist/approachcircle@2x.png")
 
 

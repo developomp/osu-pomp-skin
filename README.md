@@ -6,15 +6,13 @@ My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is par
 
 ## Characteristics
 
-- semi-transparent approach circles to make reading high [AR](https://osu.ppy.sh/wiki/en/Beatmapping/Approach_rate) easier
 - minimalistic
   - does not even have a health bar
   - uses the default element in most cases
 - skins osu!standard only
-- centered acc meter
-- acc meter positioned on top of the screen
+- acc meter positioned on top of the screen instead of the bottom
 - made specifically for osu!lazer
-- [HD images](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/FAQ/en.md#hd-images) only
+- uses [HD images](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/FAQ/en.md#hd-images) only
 
 ## Commands
 
@@ -50,7 +48,7 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
 
 ### [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
 
-## TODOs
+## TODO
 
 - audio
 
