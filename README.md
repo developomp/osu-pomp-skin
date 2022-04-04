@@ -61,6 +61,16 @@ Though no images have a `@2x` postfix, they are all HD images, and the postfix w
   - [whitecat's skin](https://drive.google.com/file/d/1A9Ktx7MY-UP5iOGTTHsyQP622zDOKqfe/view)
   - [osu!pure skin](https://www.reddit.com/r/OsuSkins/comments/kzv7s4/osupure_169_hdsd_osustandard)
 
+## My favorite difficulty settings
+
+This is the difficulty adjustment settings I most commonly use, and is what the skin is optimized for:
+
+- CS 5
+- HP 11
+- OD 9
+- AR 9.2
+- extended: true
+
 ## License
 
 <ins>The source code of this project</ins>\* is available under the MIT License.
