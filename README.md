@@ -1,6 +1,6 @@
 # osu-pomp-skin
 
-My custom skin for the game [osu!](osu.ppy.sh) (yes, the exclamation mark is part of the name).
+My custom skin for the game [osu!](https://github.com/ppy/osu) (yes, the exclamation mark is part of the name).
 
 ![screenshot](./.repo/screenshot.png)
 
