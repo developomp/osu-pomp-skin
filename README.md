@@ -16,7 +16,11 @@ My custom skin for the game [osu!](https://github.com/ppy/osu) (yes, the exclama
 
 ## Commands
 
-> Assumes that these commands are called from the project root
+The files are not usable on their own.
+The have to be parsed and compressed down to a `.osk` file.
+Run the following commands to generate the skin archive.
+
+> Note that the commands assume they are called from the project root
 
 Install dependencies:
 
@@ -32,25 +36,16 @@ python src
 
 ## What's in it?
 
-Though no images have a `@2x` postfix, they are all HD images, and the postfix will be added automatically during the build process.
+Though no images have a `@2x` postfix, they are all HD images. The postfix are added automatically during the build process.
 
-### [sounds](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Sounds/en.md)
-
-### [hitcircles](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#hit-circles)
-
-### [cursor](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#cursor)
-
-### [hit bursts](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#hit-bursts)
-
-### [default numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#default-numbers)
-
-### [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
-
-### [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
-
-## TODO
-
-- audio
+- [sounds](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Sounds/en.md)
+- [hitcircles](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#hit-circles)
+- [cursor](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#cursor)
+- [hit bursts](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/Interface/en.md#hit-bursts)
+- [default numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#default-numbers)
+- [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
+- [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
+- audio (TODO)
 
 ## Resources
 
@@ -68,7 +63,7 @@ This is the difficulty adjustment settings I most commonly use, and is what the 
 - CS 5
 - HP 11
 - OD 9
-- AR 9.2
+- AR 9
 - extended: true
 
 ## License
