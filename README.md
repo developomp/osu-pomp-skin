@@ -61,10 +61,9 @@ Though no images have a `@2x` postfix, they are all HD images. The postfix are a
 This is the difficulty adjustment settings I most commonly use, and is what the skin is optimized for:
 
 - CS 5
-- HP 11
+- HP 10
 - OD 9
-- AR 9
-- extended: true
+- AR 9.4
 
 ## License
 
