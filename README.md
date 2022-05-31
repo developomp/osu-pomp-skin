@@ -17,7 +17,7 @@ My custom skin for the game [osu!](https://github.com/ppy/osu) (yes, the exclama
 ## Commands
 
 The files are not usable on their own.
-The have to be parsed and compressed down to a `.osk` file.
+They have to be parsed and compressed down to a `.osk` file.
 Run the following commands to generate the skin archive.
 
 > Note that the commands assume they are called from the project root
@@ -45,7 +45,6 @@ Though no images have a `@2x` postfix, they are all HD images. The postfix are a
 - [default numbers](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#default-numbers)
 - [slider](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#slider)
 - [spinner](https://github.com/ppy/osu-wiki/blob/master/wiki/Skinning/osu!/en.md#spinner)
-- audio (TODO)
 
 ## Resources
 
@@ -56,20 +55,11 @@ Though no images have a `@2x` postfix, they are all HD images. The postfix are a
   - [whitecat's skin](https://drive.google.com/file/d/1A9Ktx7MY-UP5iOGTTHsyQP622zDOKqfe/view) (cursor)
   - [osu!pure skin](https://www.reddit.com/r/OsuSkins/comments/kzv7s4/osupure_169_hdsd_osustandard) (hit bursts)
 
-## My favorite difficulty settings
-
-This is the difficulty adjustment settings I most commonly use, and is what the skin is optimized for:
-
-- CS 5
-- HP 10
-- OD 9
-- AR 9.4
-
 ## License
 
 <ins>The source code of this project</ins>\* is available under the MIT License.
 
-\*Excluding images and fonts.
+\*Excluding assets such as images, fonts, and audios.
 
 Fonts:
 
