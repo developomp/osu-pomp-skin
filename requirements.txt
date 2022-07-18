@@ -1,2 +1,2 @@
-Pillow==9.0.1
-# types-Pillow==9.0.6
+Pillow==9.2.0
+# types-Pillow==9.2.0
