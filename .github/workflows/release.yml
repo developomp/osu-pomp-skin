@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - .vscode/**
+      - ./.repo/**
+      - README.md
+      - LICENSE
+
+jobs:
+  tagged-release:
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build
+        run: python ./src
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: POMP.osk
