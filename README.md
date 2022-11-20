@@ -4,11 +4,12 @@
 	<a href="https://developomp.github.io/osu-pomp-skin">
 		<img src="https://img.shields.io/badge/download_skin-gray?style=for-the-badge" />
 	</a>
+	<a href="https://www.figma.com/file/L4nb8uJRrZTdAXvQ3YmgQ3">
+		<img src="https://img.shields.io/badge/figma_design-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
+	</a>
 </p>
 
-My custom skin for the game [osu!](https://github.com/ppy/osu) (yes, the exclamation mark is part of the name).
-
-![screenshot](./.repo/screenshot.png)
+My custom skin for the game [osu!](https://github.com/ppy/osu).
 
 ## Characteristics
 
