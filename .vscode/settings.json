@@ -14,5 +14,6 @@
     "scoreentry",
     "svgs",
     "vaxei"
-  ]
+  ],
+  "python.linting.mypyEnabled": true
 }
