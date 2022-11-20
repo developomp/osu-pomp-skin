@@ -11,6 +11,9 @@ on:
       - README.md
       - LICENSE
 
+runs:
+  using: "node16" #  prevent warnings
+
 jobs:
   build:
     if: ${{ github.repository_owner == 'developomp' }} # prevents workflow from running in forked repos
