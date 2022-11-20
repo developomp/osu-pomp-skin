@@ -1,5 +1,11 @@
 # osu-pomp-skin
 
+<p align="center">
+	<a href="https://developomp.github.io/osu-pomp-skin">
+		<img src="https://img.shields.io/badge/download_skin-gray?style=for-the-badge" />
+	</a>
+</p>
+
 My custom skin for the game [osu!](https://github.com/ppy/osu) (yes, the exclamation mark is part of the name).
 
 ![screenshot](./.repo/screenshot.png)
