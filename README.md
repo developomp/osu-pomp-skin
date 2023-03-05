@@ -13,6 +13,7 @@ My custom skin for the game [osu!](https://github.com/ppy/osu).
 - minimalistic
   - does not even have a health bar
   - uses the default element in most cases
+- instant fade circles
 - skins osu!standard only
 - acc meter positioned on top of the screen instead of the bottom
 - made specifically for osu!lazer
