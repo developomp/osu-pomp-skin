@@ -1,4 +1,4 @@
-from src.helper import copy_all
+from helper import copy_all
 
 #
 # main
