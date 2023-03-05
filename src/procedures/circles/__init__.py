@@ -7,7 +7,7 @@ opacity = 1.0
 
 
 def parse_approachcircle():
-    img = Image.open("src/procedures/hitcircles/approachcircle.png")
+    img = Image.open("src/procedures/circles/approachcircle.png")
 
     if opacity >= 1.0:
         img = img.convert("RGBA")
@@ -26,9 +26,9 @@ def parse_followpoint():
 
 
 def parse_hitcircles():
-    copyfile("src/procedures/hitcircles/hitcircle.png", "dist/hitcircle@2x.png")
+    copyfile("src/procedures/circles/hitcircle.png", "dist/hitcircle@2x.png")
     copyfile(
-        "src/procedures/hitcircles/hitcircleoverlay.png",
+        "src/procedures/circles/hitcircleoverlay.png",
         "dist/hitcircleoverlay@2x.png",
     )
 
