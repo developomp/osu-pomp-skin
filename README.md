@@ -55,10 +55,9 @@ Though no images have a `@2x` postfix, they are all HD images. The postfix are a
 - [osu! wiki page about skinning](https://osu.ppy.sh/wiki/en/Skinning)
 - some assets are from:
   - [monko2k's skin](https://skins.osuck.net/skins/2011)
-  - [vaxei's skin](https://drive.google.com/file/d/1JRDbxtEVFYMgt9ls4rvIRs2v0IfBddFO/view)
-  - [flyingtuna's skin](https://drive.google.com/file/d/1SVtUUvo4o2DUwQ1Pf2Xb0v4eDblvvovq/view)
-  - [whitecat's skin](https://drive.google.com/file/d/1A9Ktx7MY-UP5iOGTTHsyQP622zDOKqfe/view)
+  - [(base) vaxei's skin (blue, instant-fade)](https://drive.google.com/file/d/16YhU5yI4rgHFoK8PzBeFGDQoywWua417/view)
   - [osu!pure skin](https://www.reddit.com/r/OsuSkins/comments/kzv7s4/osupure_169_hdsd_osustandard)
+  - [-#KW-! If there was an endpoint](https://osu.ppy.sh/community/forums/topics/1672096)
 
 ## License
 
