@@ -4,7 +4,7 @@ import os
 import shutil
 from glob import glob
 
-from log import info, BOLD, END, GREEN
+from log import err
 
 DIST_DIR = "./dist"
 
@@ -28,7 +28,7 @@ def make_osk():
     if os.path.isfile("POMP.zip"):
         os.rename("POMP.zip", "POMP.osk")
     else:
-        print_error("cannot find zip file to convert to osk file :(")
+        err("cannot find zip file to convert to osk file :(")
 
 
 def copy_all(
