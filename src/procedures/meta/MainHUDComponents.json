@@ -2,16 +2,18 @@
   "DrawableInfo": {
     "global": [
       {
-        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2023.301.0.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
-          "y": 0.0
+          "y": -2.5
         },
         "Rotation": 90.0,
         "Scale": {
           "x": 1.0,
           "y": -1.0
         },
+        "Width": null,
+        "Height": null,
         "Anchor": 17,
         "Origin": 10,
         "UsesFixedAnchor": false,
@@ -20,21 +22,23 @@
           "colour_bar_visibility": true,
           "show_moving_average": true,
           "centre_marker_style": 1,
-          "label_style": 1
+          "label_style": 2
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2023.301.0.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         },
         "Rotation": 0.0,
         "Scale": {
           "x": 1.0,
           "y": 1.0
         },
+        "Width": 1.0,
+        "Height": null,
         "Anchor": 20,
         "Origin": 20,
         "UsesFixedAnchor": false,
@@ -44,16 +48,18 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2023.301.0.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
-          "y": 40.0
+          "y": 26.5
         },
         "Rotation": 0.0,
         "Scale": {
           "x": 1.0,
           "y": 1.0
         },
+        "Width": null,
+        "Height": null,
         "Anchor": 17,
         "Origin": 17,
         "UsesFixedAnchor": false,
