@@ -16,7 +16,7 @@ for file_path in glob("src/procedures/followpoints/*.png"):
     # lower opacity
 
     data = []
-    for (r, g, b, a) in img.getdata():
+    for r, g, b, a in img.getdata():
         data.append((r, g, b, int(a * opacity)))
 
     img.putdata(data)  # type: ignore
