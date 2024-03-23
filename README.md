@@ -1,10 +1,8 @@
 # osu-pomp-skin
 
-<p align="center">
-	<a href="https://developomp.github.io/osu-pomp-skin">
-		<img src="https://img.shields.io/badge/download_skin-gray?style=for-the-badge" />
-	</a>
-</p>
+[![license](https://img.shields.io/github/license/developomp/osu-pomp-skin?style=for-the-badge&color=yellow)](./LICENSE)
+[![code style: black](https://img.shields.io/badge/black-black?style=for-the-badge&label=code%20style)](https://github.com/psf/black)
+[![download skin](https://img.shields.io/badge/download_skin-gray?style=for-the-badge)](https://developomp.github.io/osu-pomp-skin)
 
 My custom skin for the game [osu!](https://github.com/ppy/osu).
 
