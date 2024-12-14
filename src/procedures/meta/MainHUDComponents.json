@@ -1,8 +1,9 @@
 {
+  "Version": 1,
   "DrawableInfo": {
     "global": [
       {
-        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": -2.5
@@ -18,16 +19,16 @@
         "Origin": 10,
         "UsesFixedAnchor": false,
         "Settings": {
-          "judgement_line_thickness": 5.0,
+          "judgement_line_thickness": 4.0,
           "colour_bar_visibility": true,
           "show_moving_average": true,
           "centre_marker_style": 1,
-          "label_style": 2
+          "label_style": 1
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.0
@@ -43,12 +44,15 @@
         "Origin": 20,
         "UsesFixedAnchor": false,
         "Settings": {
-          "show_graph": true
+          "show_graph": true,
+          "show_time": true,
+          "use_relative_size": true,
+          "accent_colour": "#FFFFFF"
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 26.5
@@ -70,8 +74,30 @@
           "show_max_judgement": true
         },
         "Children": []
+      },
+      {
+        "Type": "osu.Game.Screens.Play.ArgonKeyCounterDisplay, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -5.0,
+          "y": -41.0
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 36,
+        "Origin": 36,
+        "UsesFixedAnchor": false,
+        "Settings": {},
+        "Children": []
       }
     ],
-    "osu": []
+    "osu": [],
+    "mania": [],
+    "fruits": [],
+    "taiko": []
   }
 }

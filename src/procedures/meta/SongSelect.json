@@ -1,5 +1,53 @@
 {
+  "Version": 1,
   "DrawableInfo": {
-    "global": []
+    "global": [
+      {
+        "Type": "osu.Game.Skinning.Components.BoxElement, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 18.448334,
+          "y": 38.36023
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.2855689,
+          "y": 0.2855689
+        },
+        "Width": 274.81665,
+        "Height": 80.0,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "corner_radius": 0.5,
+          "accent_colour": "#000000"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.1208.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 25.816498,
+          "y": 42.372467
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.3292205,
+          "y": 0.3292205
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 9,
+        "Origin": 9,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "attribute": 13,
+          "template": "{Label}: {Value}",
+          "font": 1,
+          "text_colour": "#FFFFFF"
+        },
+        "Children": []
+      }
+    ]
   }
 }
