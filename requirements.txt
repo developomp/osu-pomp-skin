@@ -1,2 +1,2 @@
-Pillow==9.2.0
-types-Pillow==9.3.0
+Pillow==11.0.0
+types-Pillow==10.2.0.20240822
